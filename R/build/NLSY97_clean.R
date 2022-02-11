@@ -3,7 +3,7 @@
 # vignette("colwise")
 # vignette("rowwise")
 
-read_csv(here("C:/Users/Haokun Zhang/Desktop/UTexas classes/casual inference/Hidden curriculum/Casual_Raw_Data - Copy1/NLSY97_raw.csv")) %>%
+read_csv(here("C:/Users/Haokun Zhang/Desktop/UTexas classes/casual inference/Hidden curriculum/NLSY97_Hidden_Curriculum/R/data/NLSY97_raw.csv")) %>%
   
   # refused responses or already incarcerated --> NA
   # starts_with("E") are the columns that hold number of arrests per month of 2002
@@ -36,5 +36,5 @@ read_csv(here("C:/Users/Haokun Zhang/Desktop/UTexas classes/casual inference/Hid
   select(race, gender, total_arrests) %>%
   
   # write to a csv
-  write_csv(here("C:/Users/Haokun Zhang/Desktop/UTexas classes/casual inference/Hidden curriculum/output/NLSY97_clean.csv"))
+  write_csv(here("C:/Users/Haokun Zhang/Desktop/UTexas classes/casual inference/Hidden curriculum/NLSY97_Hidden_Curriculum/R/data/NLSY97_clean.csv"))
 
