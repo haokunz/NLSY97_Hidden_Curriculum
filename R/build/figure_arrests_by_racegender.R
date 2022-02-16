@@ -10,9 +10,9 @@ read_csv(here("C:/Users/Haokun Zhang/Desktop/UTexas classes/casual inference/Hid
     x = "Race", 
     y = "Mean Arrests", 
     fill = "Gender",
-    title = "Mean Number of Arrests in 2002 by Race and Gender") +
+    title = "Mean Number of Incarceration in 2002 by Race and Gender") +
   theme_minimal() +
   scale_fill_economist()
 
-ggsave(here("C:/Users/Haokun Zhang/Desktop/UTexas classes/casual inference/Hidden curriculum/NLSY97_Hidden_Curriculum/figures/arrests_by_racegender.png"), width=8, height=4.5)
+ggsave(here("C:/Users/Haokun Zhang/Desktop/UTexas classes/casual inference/Hidden curriculum/NLSY97_Hidden_Curriculum/figures/incarceration_by_racegender.png"), width=8, height=4.5)
 

@@ -18,7 +18,7 @@ stargazer(
   se = list(se),
   covariate.labels = covariate.labels,
   dep.var.labels = "Arrests in 2002",
-  out = here("C:/Users/Haokun Zhang/Desktop/UTexas classes/casual inference/Hidden curriculum/NLSY97_Hidden_Curriculum/tables/regress_arrests_by_racegender.tex"),
+  out = here("C:/Users/Haokun Zhang/Desktop/UTexas classes/casual inference/Hidden curriculum/NLSY97_Hidden_Curriculum/tables/regress_incarceration_by_racegender.tex"),
   title = "Regression Output. Omitted category is Black Females.",
   label = "tab:regression"
 )
